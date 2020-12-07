@@ -23,9 +23,9 @@
                 </executions>
                 <configuration>
                     <executable>Jasmine</executable>
-                    <workingDirectory>test</workingDirectory>
+                    <workingDirectory>src</workingDirectory>
                     <arguments>
-                        <argument>Bankwebsite.js</argument>
+                        <argument>Bank.js</argument>
                         <argument>SpecRunner.html</argument>
                         <argument>${project.build.directory}/surefire-reports</argument>
                     </arguments>
